@@ -1,10 +1,10 @@
 // src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Sales from '.pages/Sales';
+import Home from './scripts/Home';
+import About from './scripts/About';
+import Contact from './scripts/Contact';
+import Sales from './scripts/Sales';
 
 const App = () => {
   return (
