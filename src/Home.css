@@ -1,0 +1,15 @@
+/* Basic CSS for the Home component */
+div {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #666;
+  }
+  

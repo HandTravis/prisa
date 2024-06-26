@@ -1,11 +1,11 @@
-// src/pages/Home.js
 import React from 'react';
+import './Home.css';
 
 const Home = () => {
   return (
     <div>
-      <h1>Home Page</h1>
-      <p>Welcome to the Home Page!</p>
+      <h1>Welcome to the Home Page</h1>
+      <p>This is the home page of your website.</p>
     </div>
   );
 };
