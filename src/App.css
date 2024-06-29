@@ -71,7 +71,7 @@ nav ul li a {
   height: 100%;
   width: 200px;
   position: fixed;
-  top: 0;
+  top: 100px;
   left: 0;
   background-color: #111;
   padding-top: 20px;
@@ -97,8 +97,15 @@ nav ul li a {
   background-color: #575757;
 }
 
+div section search label {
+  color: blue;
+}
+
 main {
+  margin-left: 200px; /* Same width as the sidebar */
   padding: 20px;
+  flex: 1;
+  margin-top: 60px; /* Adjust margin-top if you have a fixed header */
 }
 
 #interactiveButton {
