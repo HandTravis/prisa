@@ -5,6 +5,7 @@ import Home from './scripts/Home';
 import About from './scripts/About';
 import Contact from './scripts/Contact';
 import Sales from './scripts/Sales';
+import Products from './scripts/Products'
 import './App.css';
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
               <li><Link to="/about">About</Link></li>
               <li><Link to="/contact">Contact</Link></li>
               <li><Link to="/sales">Sales</Link></li>
+              <li><Link to="/products">Products</Link></li>
             </ul>
           </nav>
       </div>
@@ -30,6 +32,7 @@ const App = () => {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/sales" element={<Sales />} />
+            <Route path="/products" element={<Products />} />
           </Routes>
         </main>
         <footer>
